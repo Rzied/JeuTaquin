@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    color: orangered;
+    font-size: 50px;
+}
+.coups{
+    font-size: 20px;
+    color: mediumvioletred;
+    font-weight: 600;
+}
+#compteur{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    background-color: midnightblue;
+    align-self: center;
+    width: 40px;
+    border-radius: 50%;
+}
+#jeu {
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+}
+
+button.case,
+button.emptycase {
+    width: 10vw;
+    height: 10vw;
+    font-size: 2em;
+    float: left;
+    border: solid 1pt black;
+    margin: 1px 2px 1px 2px;
+    border-radius: 20px;
+}
+
+button.emptycase {
+    background-color: inherit;
+    border: none;
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
